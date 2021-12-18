@@ -93,6 +93,19 @@ main {
     width: auto;
 }
 
+div.gallery {
+    border: 1px solid black;
+}
+
+div.gallery:hover {
+    border: 3px solid red;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
 .footer {
     background-color: #400608;
     color: white;
