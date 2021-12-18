@@ -8,9 +8,9 @@ header {
     color: white;
     background-color: #400608;
     font-family: 'Oswald';
-    height: 60px;
+    height: 50px;
     align-self: center;
-    /* position: fixed; */
+    font-size: 15px;
 }
 
 .spanHeader {
@@ -19,7 +19,7 @@ header {
 
 .topnav {
     overflow: hidden;
-    background-color: rgba(49,49,49,0.55);
+    background-color: black;
     margin: 0;
     z-index: 10;
 }
@@ -43,17 +43,70 @@ header {
     color: white;
 }
 
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.article {
+    margin: 40px;
+}
+
+#call-us-button {
+    display: inline-block;
+    height: 50px;
+    line-height: 50px;
+    padding-right: 30px;
+    padding-left: 70px;
+    position: relative;
+    background-color:#400608 ;
+    color:rgb(255,255,255);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    text-shadow:0px 1px 0px rgba(0,0,0,0.5);
+}
+
+#call-us-button span {
+    position: absolute;
+    left: 0;
+    width: 50px;
+    background-color:rgba(0,0,0,0.5);
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-right: 1px solid  rgba(0,0,0,0.15);
+}
+
+#call-us-button:active {
+    margin-top: 2px;
+    margin-bottom: 13px;
+}
+
+#call-us-button:hover span, #call-us-button.active span {
+    background-color:rgb(0,102,26);
+    border-right: 1px solid  rgba(0,0,0,0.3);
+  }
+
+#main-picture {
+    height: 80vh;
+    width: auto;
+}
+
 .footer {
     background-color: #400608;
     color: white;
-    left:0px;
-    bottom:0px;
-    z-index:1;
-    width:100%;
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
 }
 
 a {
     color: white;
+}
+
+#allrights {
+    text-align: center;
 }
 
 td {
