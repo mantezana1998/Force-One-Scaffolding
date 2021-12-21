@@ -4,7 +4,7 @@
 
 header {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     color: white;
     background-color: #400608;
     font-family: 'Oswald';
@@ -94,16 +94,31 @@ main {
 }
 
 div.gallery {
-    border: 1px solid black;
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
 }
 
 div.gallery:hover {
-    border: 3px solid red;
+    border: 3px solid black;
 }
 
 div.gallery img {
     width: 100%;
     height: auto;
+}
+
+div.scaffolding-type {
+    padding: 15px;
+    text-align: center;
+}
+
+#map{
+    height: 400px;
+    /* The height is 400 pixels */
+    width: 100%;
+    /* The width is the width of the web page */
 }
 
 .footer {
