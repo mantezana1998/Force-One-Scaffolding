@@ -87,6 +87,10 @@ header {
     border-right: 1px solid  rgba(0,0,0,0.3);
 }
 
+span {
+    text-align: center;
+}
+
 .row {
     display: flex;
     flex-direction: row;
@@ -134,11 +138,6 @@ div.scaffolding-type {
     text-align: center;
 }
 
-#map{
-    height: 400px;
-    width: 100%;
-}
-
 .footer {
     background-color: #400608;
     color: white;
@@ -161,4 +160,38 @@ td {
 
 th {
     padding: 5px
+}
+
+/* Contact Page */
+
+.full-contact {
+    margin: 60px;
+    display: flex;
+    flex-direction: row;
+}
+
+#map {
+    height: 400px;
+    width: 550px;
+    margin-left: auto;
+}
+
+/* Services */
+
+.services {
+    margin: 60px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+#services-list {
+    color: blue;
+}
+
+.services h3, h4 {
+    color:#400608;
+}
+
+.description-services {
+    margin: 20px;
 }
