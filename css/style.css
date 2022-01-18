@@ -43,12 +43,12 @@ header {
     color: white;
 }
 
-.article {
-    display: flex;
-}
-
 .bio {
     margin: 40px;
+}
+
+.article {
+    display: flex;
 }
 
 #call-us-button {
@@ -88,10 +88,24 @@ header {
 }
 
 .row {
-    margin: 10px;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    margin: 30px;
+}
+
+.column img {
+    vertical-align: middle;
+}
+
+.row .column {
+    bottom: 0;
+    background: #400608; /* Fallback color */
+    color: #f1f1f1;
+}
+
+.column {
+    margin-left: 5px;
 }
 
 #main-picture {
@@ -122,9 +136,7 @@ div.scaffolding-type {
 
 #map{
     height: 400px;
-    /* The height is 400 pixels */
     width: 100%;
-    /* The width is the width of the web page */
 }
 
 .footer {
